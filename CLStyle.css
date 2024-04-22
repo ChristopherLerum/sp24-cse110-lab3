@@ -1,0 +1,31 @@
+/* CSS stylesheet */
+body {
+    background-color: linen;
+  }
+  
+  h1 {
+    color: rgb(219, 143, 0);
+    margin-left: 40px;
+  }
+
+  @counter-style fallback-test {
+    system: fixed;
+    symbols: "\24B6";
+    fallback: upper-alpha;
+  }
+  
+  .flist {
+    list-style: fallback-test;
+  }
+  #meeting-details {
+    text-decoration: underline dotted;
+  }
+
+  #fbox{
+    border: 1mm solid #000000;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: hsl(255 70% 50%);
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+  }
