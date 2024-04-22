@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="CLStyle.css">
     <title>Lab 2 Meeting Minutes</title>
+    <style>
+        body{
+            h2 {
+                color: rgb(219, 143, 0);
+                margin-left: 1cm;
+            }
+        }
+    </style>
   </head>
   <body>
     <header>
-        <div>Meeting Minutes</div>
+        <div style="color:gray;">Meeting Minutes</div>
 
         <nav>
             <ul>
@@ -23,7 +32,7 @@
         <h1>Meeting Minutes</h1>
 
         <hr />
-        <section>
+        <section id="fbox">
             <h2 id="meeting-details">Meeting Details</h2>
 
             <p>
@@ -44,7 +53,7 @@
                 <br />
                 <b>Unfinished Business:</b> 
             </p>
-            <ol>
+            <ol class="flist">
                 <li>Finishing using markdown and <strong>Git Pages</strong></li>
                 <li>Using <em>Git Hub</em> and publishing pages</li>
                 <li>Other stuff</li>
