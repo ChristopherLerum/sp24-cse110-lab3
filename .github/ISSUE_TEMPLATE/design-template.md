@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Editing the HTML code or the CSS code to update the design
+Edit the HTML code or the CSS code to update the design
