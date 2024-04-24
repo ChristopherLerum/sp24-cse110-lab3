@@ -48,12 +48,12 @@ body {
     height: 150px;
     margin: 5px 5px 10px 10px;
     padding: 1cm 1cm 1cm 1cm;
-    border: 2px solid color(display-p3 0.5 0 0);
+    border: 2px solid color(0.5 0 0);
   }
 
   .flex-container{
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
 
@@ -81,7 +81,8 @@ body {
     min-width: 500px;
     max-width: 1000px;
     margin:auto;
-    border: 2px solid color-mix(in srgb, #ebb134 75%, white);
+    border: 2px solid;
+    border-color: color-mix(in srgb, #ebb134 75%, white);
   }
 
   .grid-container{
@@ -91,24 +92,23 @@ body {
     grid-template-areas: 
         "header header"
         "lbody rbody";
-
-    .grid-item1{
-        grid-area: header;
-    }
-          
-    .grid-item2{
-        grid-area: lbody;
-    }
-          
-    .grid-item3{
-        grid-area: rbody;
-    }
   }
 
-  /*@media (width: 300px) {*/
-    footer > section > h3{
-        border: 2px solid #000000
-    }
+  .grid-item1{
+      grid-area: header;
+  }
+        
+  .grid-item2{
+      grid-area: lbody;
+  }
+      
+  .grid-item3{
+      grid-area: rbody;
+  }
+
+  footer > section > h3{
+      border: 2px solid #000000
+  }
 
   
   footer fieldset {
