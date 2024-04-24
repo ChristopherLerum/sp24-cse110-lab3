@@ -48,7 +48,7 @@ body {
     height: 150px;
     margin: 5px 5px 10px 10px;
     padding: 1cm 1cm 1cm 1cm;
-    border: 2px solid color(0.5 0 0);
+    border: 2px solid #630707;
   }
 
   .flex-container{
@@ -81,8 +81,7 @@ body {
     min-width: 500px;
     max-width: 1000px;
     margin:auto;
-    border: 2px solid;
-    border-color: color-mix(in srgb, #ebb134 75%, white);
+    border: 2px solid #ebb134;
   }
 
   .grid-container{
